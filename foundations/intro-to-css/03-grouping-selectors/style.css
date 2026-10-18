@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+.push-me {
+    background-color: black;
+    color: white;
+}
+
+.dont-push-me {
+    background-color: yellow;
+}
+
+.push-me,
+.dont-push-me {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+}
+
+.dont-push-me:hover {
+    background-color: red;
+}
