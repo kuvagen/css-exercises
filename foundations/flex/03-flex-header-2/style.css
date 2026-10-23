@@ -6,12 +6,15 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  min-width: 660px;
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -43,6 +46,27 @@ a {
   color: rebeccapurple;
 }
 
+.links {
+  display: flex;;
+  margin-right: auto;
+}
+
+
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* .profile-image {
+  flex-shrink: 0;
+} */
+
